@@ -1,4 +1,5 @@
 # LeetCode-Problems
+These are all the problems that I've worked on solving. For the README's, I will be labeling them by the number that corresponds to the problem. For example: OneREADME.md will be about Counting Bits. 
 LeetCode Problems: 
 1:Counting Bits 
 2:Product of Array except self 
