@@ -1,0 +1,21 @@
+public int [] productArray (int [] nums){
+
+int temp;
+int i = 0;
+int [] multi = new[nums.length];
+
+while(i<nums.length-1){
+temp = nums[i+1];
+
+for(int j = i+2; i<nums.length-1; i++){
+temp = temp * nums[i];
+}
+
+for(int k = i; k>= 0; k--){
+temp = temp * nums[k];
+}
+multi[i] = temp;
+
+}
+return multi;
+}
