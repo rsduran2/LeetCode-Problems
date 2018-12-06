@@ -1,1 +1,23 @@
-public boolean 
+public boolean WordBreak( String s, String [] wordDict){
+int i = 0;
+boolean found = false;
+
+while(wordDict.length-1 != 0){
+String word = wordDict[i];
+
+for(int j = 0; j<word.length()-1; j++){
+  for(int k = 0; k<s.length()-1; k++){
+  if(s.charAt(k) == word.chartAt(j)){
+    found = true;
+    }
+    else{
+    i++;
+    }
+  
+  
+   }
+
+  }
+return found;
+
+}
