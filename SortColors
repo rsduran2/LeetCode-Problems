@@ -1,0 +1,46 @@
+public int [] SortCOlors(int [] color){
+
+int red; // reds are 0
+int white; // whites are 1
+int blue; //blues are 2
+int fill = 0;
+
+for(int i = 0; i<colors.length-1; i++){
+  if(color[i] == 0){
+  red++;
+  }
+}
+
+for(int i = 0; i<colors.length-1; i++){
+  if(color[i] == 1){
+  white++;
+  }
+}
+
+for(int i = 0; i<colors.length-1; i++){
+  if(color[i] == 2){
+  blue++;
+  }
+}
+
+while(fill < red && (red > 0){
+  color[fill] = 0;
+  red--;
+  fill++;
+}
+
+while(fill<color.length-1 || (white > 0){
+color[fill] = 1;
+white--;
+fill++;
+  }
+
+while(fill<color.length-1 && (blue > 0){
+color[fill] = 2;
+blue--:
+fill++;
+}
+
+return color;
+
+}
