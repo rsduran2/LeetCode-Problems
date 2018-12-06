@@ -1,0 +1,25 @@
+public int coinChange(int [] coins, int amount){
+
+int count = 0;
+int max = coins[0];
+
+while(amount != 0){
+  for(int i = 1; i<coins.length-1; i++){
+  if(coins[i] > max){
+    max = coins[i];
+  }
+  if(coins.length-1 < amount && coins[i] != amount){
+  count= -1;
+  }
+  if(max > amount){
+  coins[i] = -1;
+}
+
+}
+  
+amount = amount - max;
+count++;
+}
+
+return count;
+}
