@@ -1,0 +1,21 @@
+public String decodeString( String s){
+
+int i = 0;
+int num;
+String letters;
+boolean p1 = false;
+boolean p2 = false;
+
+while(s.length() != 0){
+if(s.charAt(i) == (int)s.charAt(i)){
+  num = s.charAt(i);
+}
+
+while(!p1 && !p2){
+  if(s.charAt(i)
+
+}
+
+
+}
+}
