@@ -1,0 +1,2 @@
+For this, I had to really evaulate why something I wrote wouldn't work correctly past a small problem. Since you have to subtract the numbers from the amount and keep track that a number could be used more than once, that caused some problems in making sure that it did just that. It made it easier to know that I really only needed to return the amount of times it took to get the amount down to zero. I didn't have to do a whole lot of scratching out and starting all over again. Just a few minor fixes to get it to work properly.
+No questions for this problem.
