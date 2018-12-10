@@ -3,16 +3,31 @@ public String decodeString( String s){
 int i = 0;
 int num;
 String letters;
-boolean p1 = false;
-boolean p2 = false;
+boolean b1 = false;
+boolean b2 = false;
+
 
 while(s.length() != 0){
-if(s.charAt(i) == (int)s.charAt(i)){
-  num = s.charAt(i);
+  if(s.charAt(i) == (int)s.charAt(i)){
+   num = s.charAt(i);
+   i++;
 }
 
-while(!p1 && !p2){
-  if(s.charAt(i)
+while(!b1){
+  if(s.charAt(i) == '('){
+    b1 = true;
+    
+    while(!b2){
+      for(int k = i+1; k<s.length(); k++){
+        
+      
+      }
+    
+    }
+      
+      }
+    }
+  }
 
 }
 
