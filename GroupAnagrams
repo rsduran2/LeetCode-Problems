@@ -1,0 +1,16 @@
+public List<List<String>> groupAnagrams(String strs){
+
+
+
+int i = 0;
+int j = 1;
+String start;
+String comp;
+int check = 0;
+
+start = strs[i];
+comp = strs[j];
+
+for(int k = 0; k<
+
+}
