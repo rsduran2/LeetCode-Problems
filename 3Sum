@@ -1,0 +1,31 @@
+public List<List<Integer>> threeSum(int [] nums){
+
+List<List<Integer>> result = new ArrayList<List<Integer>>();
+
+int i = nums.length/2;
+int j = 0;
+int k = nums.length-1;
+int count = 0;
+
+while(j<i && k>i){
+if(nums[i] + nums[j] + nums[k] == 0){
+  List<Integer> X = new ArrayList<Integer>();
+  X.add(nums[i]);
+  X.add(nums[j]);
+  X.add(nums[k]);
+  result.add(X);
+ }
+
+j++;
+k--;
+}
+
+for(int i = 1; i<result.size(); i++){
+  if(result.get(count) == result.get(i)){
+    result.remove(i);
+    count++;
+  }
+}
+
+return result;
+}
