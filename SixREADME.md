@@ -1,0 +1,2 @@
+Just like the previous one, this problem didn't really require me to use IDEAL or Duke's because of the straightforwardness of the problem. Personally, I feel like if the problem is straightforward, there's not too much of a need of IDEAL but Duke's is still helpful in the fact that it helps me to work on the problem by hand first and focus on smaller problems of the overall problem in order to better come up with a solution.
+There were no questions that came to mind for this probelm.
