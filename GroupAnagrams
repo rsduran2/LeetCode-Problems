@@ -1,6 +1,6 @@
 public List<List<String>> groupAnagrams(String strs){
 
-
+List<List<Integer>> result = new ArrayList<List<Integer>>();
 
 int i = 0;
 int j = 1;
@@ -8,9 +8,22 @@ String start;
 String comp;
 int check = 0;
 
-start = strs[i];
-comp = strs[j];
+for(int k = count; k<start.length()-1; k++){
+  start = strs[i];
+  comp = strs[j];
+  int count = 0;
+  
+  if(start.charAt(count) == comp.charAt(k)){
+    check++;
+      if(check == start.length()-1){
+      result.add(start);
+      result.add(comp);
+      j++;
+      }
+   }
+i++;
+}
 
-for(int k = 0; k<
+
 
 }
